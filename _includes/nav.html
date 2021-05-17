@@ -1,0 +1,39 @@
+<nav id="navbar-main" class="navbar navbar-expand-lg col-12 px-2 py-1">
+    <div class="flex d-flex">
+        <a class="navbar-brand" href="/">
+            <h3>Antonio Byrd</h3>
+        </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-menu" aria-controls="navbar-main-menu" aria-expanded="false" aria-label="Toggle navigation">
+       <i class="fas fa-bars highlight">
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-main-menu">
+        <ul class="navbar-nav">
+            {% assign links = site.data.nav %}
+            {% for link in links %}
+                {% assign class = nil %}
+                {% if page.url == link.url %}
+                    {% assign class = 'active' %}
+                {% endif %}
+                {% if link.subnav %}
+            <li class="nav-item dropdown {{ class }}">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    {{ link.title }}
+                </a>
+                <div class="dropdown-menu">
+                    {% for sublink in link.subnav offset: 1 %}
+                    <a class="dropdown-item" href="{{ sublink.url }}">
+                        {{ sublink.title }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </li>
+                {% else %}
+            <li class="nav-item {{ class }}">
+                <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

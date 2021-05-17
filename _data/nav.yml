@@ -1,0 +1,34 @@
+- title: Home
+  url: /
+- title: About
+  url: /about-eep/
+- title: Weddings
+  subnav:
+    - id: weddingDropdown
+    - title: Weddings
+      url: /weddings/
+    - title: Anniversary
+      url: /weddings/anniversaries/
+- title: Events
+  subnav:
+    - id: eventsDropdown
+    - title: Graduation
+      url: /events/graduations/
+    - title: Corporate Event
+      url: /events/corporate-events/
+    - title: Birthday Party
+      url: /events/birthday-parties/
+    - title: Children Party
+      url: /events/children-parties/
+    - title: Fundraisers/Charity
+      url: /events/fundraisers-charities/
+    - title: Baby Showers
+      url: /events/baby-showers/
+    - title: Gender Reveals
+      url: /events/gender-reveals/
+- title: Products
+  url: /products/
+- title: Blog
+  url: /blog/
+- title: Contact
+  url: /contact-us/
