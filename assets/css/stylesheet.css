@@ -10,34 +10,6 @@
     color: white;
 }
 
-.hamburger {
-    float: right;
-    margin-top: 12px;
-    margin-right: 12px;
-    margin-bottom: 12px;
-    background-color:#333;
-    border: none;
-}
-
-.ham-icon {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-  }
-
-.dropdown-menu {
-    background: #333;
-    width: 100%;
-    border: none;
-  }
-
-.dropdown-item {
-    background-color: #333;
-    color: white;
-    font-size: 4vw;
-  }
-
 .top-banner {
   position: relative;
 }
