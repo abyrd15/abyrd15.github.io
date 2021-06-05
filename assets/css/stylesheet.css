@@ -28,7 +28,16 @@
   padding: 20px;
 }
 
-.float-child {
+.float-left {
+  width: 100%;
+  float: left;
+  padding: 20px;
+  width:500px; 
+  height:250px; 
+  border:1px solid #000;
+}  
+
+.float-right {
   width: 100%;
   float: left;
   padding: 20px;
