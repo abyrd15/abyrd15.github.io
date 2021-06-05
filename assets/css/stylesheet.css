@@ -33,8 +33,7 @@
   float: left;
   padding: 20px;
   width:500px; 
-  height:250px; 
-  border:1px solid #000;
+  height:250px;
 }  
 
 .float-right {
@@ -43,7 +42,6 @@
   padding: 20px;
   width:500px; 
   height:250px; 
-  border:1px solid #000;
 }  
 
 .title {
