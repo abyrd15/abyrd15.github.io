@@ -1,36 +1,38 @@
 <nav id="navbar-main" class="navbar navbar-expand-lg col-12 px-2 py-1">
-    <div class="flex d-flex">
-        <a class="navbar-brand" href="/">
-            <h3>Antonio A. Byrd</h3>
-        </a>
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-main-menu">
-        <ul class="navbar-nav">
-            {% assign links = site.data.nav %}
-            {% for link in links %}
-                {% assign class = nil %}
-                {% if page.url == link.url %}
-                    {% assign class = 'active' %}
-                {% endif %}
-                {% if link.subnav %}
-            <li class="nav-item dropdown {{ class }}">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    {{ link.title }}
-                </a>
-                <div class="dropdown-menu">
-                    {% for sublink in link.subnav offset: 1 %}
-                    <a class="dropdown-item" href="{{ sublink.url }}">
-                        {{ sublink.title }}
+    <div style="background-image: url('https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg');"></div>
+        <div class="flex d-flex">
+            <a class="navbar-brand" href="/">
+                <h3>Antonio A. Byrd</h3>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-main-menu">
+            <ul class="navbar-nav">
+                {% assign links = site.data.nav %}
+                {% for link in links %}
+                    {% assign class = nil %}
+                    {% if page.url == link.url %}
+                        {% assign class = 'active' %}
+                    {% endif %}
+                    {% if link.subnav %}
+                <li class="nav-item dropdown {{ class }}">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        {{ link.title }}
                     </a>
-                    {% endfor %}
-                </div>
-            </li>
-                {% else %}
-            <li class="nav-item {{ class }}">
-                <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
-            </li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+                    <div class="dropdown-menu">
+                        {% for sublink in link.subnav offset: 1 %}
+                        <a class="dropdown-item" href="{{ sublink.url }}">
+                            {{ sublink.title }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </li>
+                    {% else %}
+                <li class="nav-item {{ class }}">
+                    <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </nav>
