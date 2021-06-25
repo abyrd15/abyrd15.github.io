@@ -67,6 +67,15 @@
   background-color: #4655A1 !important;
 }
 
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://essblog.wpengine.com/wp-content/uploads/2019/08/living-in-kansas-city-mo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 
 
