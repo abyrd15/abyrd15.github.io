@@ -28,22 +28,6 @@
   padding: 20px;
 }
 
-.float-left {
-  width: 100%;
-  float: left;
-  padding: 20px;
-  width:500px; 
-  height:250px;
-}  
-
-.float-right {
-  width: 100%;
-  float: right;
-  padding: 20px;
-  width:500px; 
-  height:250px; 
-}  
-
 .title {
     font-size: 7vw;
     color: white;
@@ -74,6 +58,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.border {
+  width: 20px;
 }
 
 
