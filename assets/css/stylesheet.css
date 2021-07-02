@@ -49,6 +49,7 @@
 
 .btn-primary {
   background-color: #4655A1 !important;
+  border-color: none !important;
 }
 
 .masthead {
