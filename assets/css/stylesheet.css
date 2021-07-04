@@ -64,6 +64,10 @@
   border: width 20px !important;
 }
 
-
+.column1 {
+  background-image: url("assets/css/images/seema_teaching.jpg");
+  background-repeat: none;
+  background-size:cover;
+}
 
   
