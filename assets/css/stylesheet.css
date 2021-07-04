@@ -76,4 +76,9 @@
   opacity:0;
 }
 
+.hover-text:hover {
+  opacity:1;
+}
+
+
   
