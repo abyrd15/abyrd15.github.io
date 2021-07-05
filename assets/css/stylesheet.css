@@ -24,15 +24,12 @@
   background-repeat: no-repeat;
 }
 
-a {
-  color: white;
-}
-
 .hover-text {
   background:rgba(0, 0, 0, 0.5);
   opacity:0;
   transition-duration: 1.2s;
   transition-timing-function: ease-in-out;
+  color: white;
 }
 
 .hover-text:hover {
