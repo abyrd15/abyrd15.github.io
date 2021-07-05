@@ -24,8 +24,11 @@
   background-repeat: no-repeat;
 }
 
-
-
+.column-1 {
+  background-image: url(/Users/abyrd/Documents/GitHub/abyrd15.github.io/assets/css/images/seema_teaching.jpg);
+  background-repeat: none;
+  background-size: cover;
+}
 .hover-text {
   background:rgba(0, 0, 0, 0.5);
   opacity:0;
