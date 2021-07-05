@@ -25,7 +25,7 @@
 }
 
 .column-1 {
-  background-image: url(/Users/abyrd/Documents/GitHub/abyrd15.github.io/assets/css/images/seema_teaching.jpg);
+  background-image: url('https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGNvbW11bml0eXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60');
   background-repeat: none;
   background-size: cover;
 }
