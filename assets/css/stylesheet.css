@@ -18,7 +18,7 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url("assets/css/images/colton-sturgeon-FiCPutl_aog-unsplash.jpg");
+  background-image: url('assets/css/images/colton-sturgeon-FiCPutl_aog-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
